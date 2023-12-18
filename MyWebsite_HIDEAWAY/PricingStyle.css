@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.MainContainer {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #D8DBE2;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(201, 169, 133);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(201, 169, 133);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:active {
+    text-decoration: none;
+    color: rgb(201, 169, 133);
+}
+
+
+/* PERVAJA CHAST S LOGO I MENU */
+
+.ContainerOne {
+    margin: 0;
+    border: 0;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 34px;
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(22, 23, 31);
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.LogoName {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    
+}
+
+.nameFirst {
+    text-align: start;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Oswald', sans-serif;
+    height: 6rem;
+    font-size: 6rem;
+    color: rgb(118, 91, 69);
+}
+
+.nameSecond {
+    text-align: start;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Oswald', sans-serif;
+    height: 6rem;
+    font-size: 6rem;
+    color: rgb(248, 201, 146);
+}
+
+.nameThird {
+    font-family: 'Oswald', sans-serif;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 0.88rem;
+    padding-bottom: 36px;
+    color: rgb(118, 91, 69);
+}
+
+.navigationLine {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 0px;
+    padding-top: 51px;
+    column-gap: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.34rem;
+    color: rgb(201, 169, 133);
+}
+
+.navLang {
+    border: 1px solid rgb(201, 169, 133) ;
+    height: fit-content;
+    padding: 11px;
+    letter-spacing: 0;
+}
+
+/* VTORAJA CHAST S INFO TEKSTOM I KALKULATOROM*/
+
+.IntroText {
+    
+    margin: 0;
+    border: 0;
+    padding: 90px 300px 50px 300px;
+    z-index: +1;
+    color:  rgb(31, 32, 38);
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.8rem;
+    
+}
+
+.pricingCalculator {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0px 300px 0px 300px;
+    
+    color:  rgb(31, 32, 38);
+    font-family: 'Arimo', sans-serif;
+    row-gap: 1.2rem;
+    font-size: 1.3rem;
+}
+
+#houseArea {
+    margin-top: 0.7rem;
+    height: 1.8rem;
+    width: 33rem;
+}
+
+.calcInput {
+    flex: 9;
+    border: 2px solid rgb(31, 32, 38);
+    padding: 10px;
+}
+
+.calcOutput {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 2px solid rgb(31, 32, 38);
+    border-right: 2px solid rgb(31, 32, 38);
+    border-bottom: 2px solid rgb(31, 32, 38);
+    padding: 10px;
+    text-align: center;
+
+}
+
+#outputNumber {
+    color:  rgb(31, 32, 38);
+    font-family: 'Oswald', sans-serif;
+    font-size: 4.5rem;
+    
+}
+
+
+.noteText {
+    padding: 20px 300px 80px 300px;
+    margin: 0;
+    border: 0;
+    z-index: +1;
+    color:  rgb(31, 32, 38);
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.3rem;
+    
+}
+
+
+/* FOOTER TEKST S KONTAKTNOJ INFORMACIJEI */
+
+.PartThree {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    border: 0;
+    padding: 40px 300px 47px 300px;
+    z-index: +1;
+    background-color:  rgb(22, 23, 31);
+}
+
+.ContactInfo {
+
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    color: rgb(132, 104, 82);
+}
+
+.ContactInsta {
+    padding-right: 2px;
+    letter-spacing: 0.5rem;
+    color: rgb(132, 104, 82);
+}
