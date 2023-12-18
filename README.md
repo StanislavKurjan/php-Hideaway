@@ -1,2 +1,2 @@
 # php-Hideaway
-A site for a small architectural company, offering private house projects
+Mājaslapa nelielam arhitektūras birojam "Hideaway", kurš piedāvā privātmāju projektēšanas pakalpojumus 
